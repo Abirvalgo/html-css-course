@@ -1,0 +1,26 @@
+{
+	"name": "fe39-course",
+	"version": "1.0.0",
+	"source": "src/index.html",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Abirvalgo/FE39-course.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Abirvalgo/FE39-course/issues"
+	},
+	"homepage": "https://github.com/Abirvalgo/FE39-course#readme",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.7.0",
+		"parcel": "^2.7.0",
+		"sass": "^1.55.0"
+	}
+}
