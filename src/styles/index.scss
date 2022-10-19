@@ -1,0 +1,136 @@
+@import url(../styles/reset.scss);
+@import url(../styles/fonts.scss);
+
+$black:#000000;
+$white: #ffffff;
+$btn-hover: #AB4949;
+$btn-active: #EC7979;
+
+/*изменение шрифтов от размера экрана*/
+@media (min-width:300px) and (max-width: 1200px) {
+	:root h1{
+		font-size: calc(36px + (48 - 36) * ( (100vw - 300px) / ( 1200 - 300) ));
+		}
+	:root h2{
+		font-size: calc(24px + (36 - 24) * ( (100vw - 300px) / ( 1200 - 300) ));
+		}
+	:root h3{
+		font-size: calc(24px + (30 - 24) * ( (100vw - 300px) / ( 1200 - 300) ));
+		}
+	:root h4{
+	font-size: calc(18px + (24 - 18) * ( (100vw - 300px) / ( 1200 - 300) ));
+	}
+	:root h5{
+		font-size: calc(14px + (18 - 14) * ( (100vw - 300px) / ( 1200 - 300) ));
+		}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: $black;
+}
+h2 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	display: flex;
+	align-items: center;
+	color: $black;
+}
+h3 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	display: flex;
+	align-items: center;
+	color: $black;
+}
+h4 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: $black;
+}
+h5 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	color: $black;
+}
+h6 {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	color: $black;
+}
+
+section:not(section.banner):not(section.social) {
+	padding: 100px 0 60px;
+}
+.container {
+	display: block;
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	height: auto;
+	padding: 0 15px;
+}
+
+
+.section__text-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-transform: uppercase;
+	&>h5 {
+		color: #86878B
+	}
+	& h2,
+	& h5{
+	text-align: center;
+}
+}
+.section__separator {
+	width: 170px;
+	border: 1px solid #EC7979;
+	margin: 50px 0 40px;
+}
+
+@import url(../styles/header.scss);
+
+@import url(../styles/banner.scss);
+@import url(../styles/banner-form.scss);
+
+@import url(../styles/social.scss);
+@import url(../styles/tabs.scss);
+@import url(../styles/about.scss);
+@import url(../styles/pricing.scss);
+@import url(../styles/reviews.scss);
+@import url(../styles/banner2.scss);
+@import url(../styles/contact.scss);
+@import url(../styles/footer.scss);
+
+@import url(../styles/mixin.scss);
