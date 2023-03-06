@@ -1,0 +1,23 @@
+section.banner2 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../assets/images/background_banner2.png);
+	max-height: 442px;
+	max-width: 1510px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: auto;
+	right: auto;
+	z-index: -1;
+	& button {
+		margin-top: 73px;
+	}
+}
+
+:root .banner2 h2, :root .banner2 h5 {
+	color: #FFFFFF;
+	text-align: center;
+}
+

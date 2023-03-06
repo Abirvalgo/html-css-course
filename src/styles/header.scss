@@ -1,0 +1,45 @@
+header {
+	background-color: black;
+}
+.header__burger{
+	display: none;
+}
+.header__wrap {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 1510px;
+	margin-left: auto;
+	margin-right: auto;
+	&-links {
+		display: flex;
+		&>a {
+			display: flex;
+			text-align: center;
+			align-items: center;
+			justify-content: center;
+			height: 75px;
+			max-width: 113px;
+			padding: 0 28px;
+			font-family: 'Open Sans';
+			font-style: normal;
+			font-weight: 100;
+			font-size: 14px;
+			color: #FFFFFF;
+			transition: all 0.3s;
+			&:hover {
+				background: #EC7979;
+			}
+			&:active {
+				background: #AB4949;
+			}
+		}
+	}
+	
+}
+
+
+
+
+
