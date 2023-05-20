@@ -1,3 +1,3 @@
-# FE39-course
+# Axit HTML course work
 
-Предпросмотр: https://abirvalgo.github.io/html-css-course/
+Preview: https://abirvalgo.github.io/html-css-course/
